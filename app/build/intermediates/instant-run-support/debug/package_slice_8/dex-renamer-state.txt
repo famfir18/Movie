@@ -1,0 +1,4 @@
+#Sun Apr 14 16:39:18 ICT 2019
+base.0=C\:\\Users\\USER\\Desktop\\Ical\\DSC-MovieListingApp-master\\DSC-MovieListingApp-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
+path.0=classes.dex
+renamed.0=classes.dex

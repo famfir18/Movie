@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Content">
+
+    <RelativeLayout
+        android:id="@+id/itemMovie"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#77776f"
+        android:backgroundTint="#77776f"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/movie_title"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imageView"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/imageView"
+            android:ellipsize="end"
+            android:fontFamily="casual"
+            android:maxLines="1"
+            android:text="@string/movie_name"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30sp" />
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/movie_id"-->
+        <!--android:text="@string/movie_id"-->
+        <!--android:visibility="gone"/>-->
+        <TextView
+            android:id="@+id/movie_release"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_title"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/imageView"
+            android:fontFamily="cursive"
+            android:text="@string/release_date"
+            android:textColor="#f4f442"
+            android:textColorLink="#f4f442"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/movie_rating"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_release"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:layout_toEndOf="@id/imageView"
+            android:text="@string/rating"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-thin"
+                android:text="Overview"
+                android:textSize="30sp"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/content_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Content"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

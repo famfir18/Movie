@@ -1,0 +1,7 @@
+#Thu May 02 16:51:35 ICT 2019
+base.0=C\:\\Users\\Wedar\\Downloads\\DSC-MovieListingApp-master\\DSC-MovieListingApp-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\36
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\Wedar\\Downloads\\DSC-MovieListingApp-master\\DSC-MovieListingApp-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
